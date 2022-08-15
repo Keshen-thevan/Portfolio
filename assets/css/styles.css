@@ -740,10 +740,6 @@ img {
   .about__container,.portfolio__content,.contact__container,.footer__container{
     grid-template-columns: repeat(2,1fr);
   }
-  .contact, .skills, .portfolio{
-    padding-top: 700px!important;
-  }
-
 
 }
 
@@ -845,6 +841,7 @@ img {
   .skills__list{
     padding: 3rem;
     background-color:#9386d121;
+    padding-top: 10px!important;
   }
 
 
