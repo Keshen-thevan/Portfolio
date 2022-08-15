@@ -80,8 +80,7 @@ img {
 
 .section {
   padding: 6rem 0 4rem;
-  height: 100vh;
-  width: 100vw !important;
+
 }
 
 .section__title {
@@ -406,9 +405,9 @@ img {
   
 }
 
-.skills{
+/* .skills{
   padding-top: 200px!important;
-}
+} */
 
 .skills__container{
   width: 100vw;
@@ -418,7 +417,7 @@ img {
  .skills__list1{
   display: grid;
   justify-content: center;
-  background-color: #9386d121;
+
   padding: 2rem 0 4rem;
   border-radius: 0px 0px 15px 15px;
   grid-template-columns: 50px 50px;
@@ -427,7 +426,7 @@ img {
  .skills__list{
   display: flex;
   justify-content: center;
-  background-color: #9386d121;
+
   padding: 2rem 0 4rem;
   border-radius: 0px 0px 15px 15px;
  }
@@ -477,7 +476,7 @@ img {
 .font__name{
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  color: green;
+  
 }
 
 .skills .section{
@@ -489,7 +488,7 @@ img {
 /* PROJECTS */
 
 .portfolio{
-  padding-top: 250px;
+  padding-top: 100px;
 }
 .portfolio__container{
   overflow: initial;
@@ -563,9 +562,9 @@ img {
 
 /* CONTACT ME */
 
-.contact{
-  padding-top: 250px!important;
-}
+/* .contact{
+  padding-top: 700px!important;
+} */
 .contact__container{
   row-gap: 3rem;
 }
@@ -681,6 +680,8 @@ img {
     margin-left: var(--mb-1);
   }
 
+
+
   .nav__menu{
     padding: 2rem .25rem 4rem;
     position: fixed;
@@ -739,6 +740,11 @@ img {
   .about__container,.portfolio__content,.contact__container,.footer__container{
     grid-template-columns: repeat(2,1fr);
   }
+  .contact, .skills, .portfolio{
+    padding-top: 700px!important;
+  }
+
+
 }
 
 
@@ -838,7 +844,9 @@ img {
 
   .skills__list{
     padding: 3rem;
+    background-color:#9386d121;
   }
+
 
 
 .swiper-wrapper{
